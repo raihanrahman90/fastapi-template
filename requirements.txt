@@ -1,4 +1,8 @@
-fastapi
+fastapi~=0.115.14
 uvicorn
-sqlalchemy
-alembic
+sqlalchemy~=2.0.41
+alembic~=1.16.2
+python-dotenv~=1.1.1
+starlette~=0.46.2
+pydantic~=2.11.7
+uuid6

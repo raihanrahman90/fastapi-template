@@ -3,7 +3,6 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 import os
 
-print("test")
 DATABASE_URL ="sqlite:///database.db"
 if "sqlite" in DATABASE_URL:
     engine = create_engine(
